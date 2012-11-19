@@ -1,0 +1,14 @@
+name: buckshot_svg
+description: >
+  This is an SVG platform implementation for Buckshot.
+dependencies:
+  buckshot:
+    git:
+      url: git://github.com/prujohn/Buckshot.git
+      ref: latest
+  xml:
+    git: git://github.com/prujohn/dart-xml.git
+  dartnet_event_model:
+    git: git://github.com/prujohn/DartNet-Event-Model.git
+  unittest:
+    sdk: unittest
