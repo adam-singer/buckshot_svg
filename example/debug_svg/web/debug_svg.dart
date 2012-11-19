@@ -15,5 +15,6 @@ r'''
   <line x1='15' y1='15' x2='200' y2='200' stroke='Green' strokewidth='5' />
   <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160" stroke='Red' strokewidth='5' />
   <polygon cursor='Help' points="350,75 379,161 469,161 397,215 423,301 350,250 277,301 303,215 231,161 321,161" stroke='Black' strokewidth='1' fill='Lime' />
+  <path data='M 100 350 q 150 -300 300 0' stroke='Red' strokewidth='5'/>
 </group>
 ''';

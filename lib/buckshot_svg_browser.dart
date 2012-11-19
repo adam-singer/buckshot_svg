@@ -1,5 +1,6 @@
 library buckshot_svg;
 
+import 'dart:svg';
 import 'dart:html';
 import 'package:buckshot/pal/surface_platform/surface_platform.dart';
 export 'package:buckshot/pal/surface_platform/surface_platform.dart';
@@ -37,6 +38,7 @@ void initPlatform({String hostID : '#BuckshotHost'}){
   registerElement(new Line.register());
   registerElement(new PolyLine.register());
   registerElement(new Polygon.register());
+  registerElement(new Path.register());
   svgPlatform._loadResources();
   _platformInitialized = true;
 }
